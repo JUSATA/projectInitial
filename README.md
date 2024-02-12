@@ -1,4 +1,4 @@
-WEB API CRUD USERS AND login WITH AUTH jwt.
+WEB API CRUD USERS y login WITH auth jwt.
 
 NOTA: El proyecto se debe ejecutar sobre un contenedor de docker por lo tanto debe estar instalado en el computador de ejecucion de la api.
 1. abrir raiz del projecto
