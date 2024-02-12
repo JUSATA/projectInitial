@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "a31d76ea-effc-4086-ae48-37cdfb2f03b7",
+		"name": "auth_node_mysql",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"porita@outlook.com\",\r\n    \"password\":\"12345\",\r\n    \"username\":\"abril12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/userRoutes/user/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"userRoutes",
+						"user",
+						"1"
+					]
+				},
+				"description": "COLECCION TEST CONSULTAR POR ID"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"porita@outlook.com\",\r\n    \"password\":\"12345\",\r\n    \"username\":\"abril12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/userRoutes/deleteuser/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"userRoutes",
+						"deleteuser",
+						"3"
+					]
+				},
+				"description": "COLECCION TEST ELIMINAR POR ID"
+			},
+			"response": []
+		},
+		{
+			"name": "INSERT",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"porita@outlook.com\",\r\n    \"password\":\"12345\",\r\n    \"username\":\"abril12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/userRoutes/user/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"userRoutes",
+						"user",
+						"1"
+					]
+				},
+				"description": "COLECCION TEST INSERTAR"
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"porita@outlook.com\",\r\n    \"password\":\"12345\",\r\n    \"username\":\"abril12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/userRoutes/user/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"userRoutes",
+						"user",
+						"1"
+					]
+				},
+				"description": "COLECCION TEST UPDATE"
+			},
+			"response": []
+		},
+		{
+			"name": "LOGIN",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"porita@outlook.com\",\r\n    \"password\":\"12345\",\r\n    \"username\":\"abril12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/userRoutes/user/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"userRoutes",
+						"user",
+						"1"
+					]
+				},
+				"description": "COLECCION TEST AUTENTIFICACION"
+			},
+			"response": []
+		},
+		{
+			"name": "INFO AUTH USER",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"porita@outlook.com\",\r\n    \"password\":\"12345\",\r\n    \"username\":\"abril12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/userRoutes/user/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"userRoutes",
+						"user",
+						"1"
+					]
+				},
+				"description": "COLECCION TEST AUTENTIFICACION"
+			},
+			"response": []
+		}
+	]
+}
